@@ -29,7 +29,7 @@ public class Shopping {
 		IntVar cooler = new IntVar(store, "Coolers", 0, 10);
 
 		IntVar[] products = { sunglasses, swimsuit, towel, cooler };
-		int[] values = { 50, 450, 500, 100 };
+		int[] values = { 50, 450, 520, 100 };
 		int[] weights = { 50, 300, 400, 250 };
 
 		store.impose(new SumWeight(products, values, cost));
